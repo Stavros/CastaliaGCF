@@ -1,0 +1,50 @@
+Castalia| what:General (1)
+Castalia| when:2014-06-26 23:21
+Castalia| repeat:0 label:General
+Castalia|		module:SN.Simulation
+Castalia|			simple output name:Execution time, seconds
+Castalia|				0.024
+Castalia|			simple output name:Execution ratio (simtime/realtime)
+Castalia|				12500.2323306
+Castalia|	module:SN.node[0].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			20.3966 
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			3.18686 
+Castalia|		simple output name:Remaining Energy
+Castalia|			18699.6 
+Castalia|	module:SN.node[0].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			119 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			120 TX pkts
+Castalia|	module:SN.node[0].Communication.MAC
+Castalia|		simple output name:TunableMAC packet breakdown
+Castalia|			120 Received from App
+Castalia|			119 received data pkts
+Castalia|			120 sent data pkts
+Castalia|	module:SN.node[0].Communication.Routing
+Castalia|		simple output name:GPSR Packets received
+Castalia|			119 HELLO
+Castalia|		simple output name:GPSR Packets sent
+Castalia|			120 HELLO
+Castalia|	module:SN.node[1].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			20.3982 
+Castalia|		simple output name:Remaining Energy
+Castalia|			18699.6 
+Castalia|	module:SN.node[1].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			120 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			120 TX pkts
+Castalia|	module:SN.node[1].Communication.MAC
+Castalia|		simple output name:TunableMAC packet breakdown
+Castalia|			120 Received from App
+Castalia|			120 received data pkts
+Castalia|			120 sent data pkts
+Castalia|	module:SN.node[1].Communication.Routing
+Castalia|		simple output name:GPSR Packets received
+Castalia|			120 HELLO
+Castalia|		simple output name:GPSR Packets sent
+Castalia|			121 HELLO

@@ -1,0 +1,363 @@
+Castalia| what:General (1)
+Castalia| when:2014-07-31 22:43
+Castalia| repeat:0 label:General
+Castalia|		module:SN.Simulation
+Castalia|			simple output name:Execution time, seconds
+Castalia|				25.693
+Castalia|			simple output name:Execution ratio (simtime/realtime)
+Castalia|				11.6763321104
+Castalia|	module:SN.node[0].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			20.3687 
+Castalia|		simple output name:Estimated network lifetime (days)
+Castalia|			3.18993 
+Castalia|		simple output name:Remaining Energy
+Castalia|			18699.6 
+Castalia|	module:SN.node[0].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			8 Failed, below sensitivity
+Castalia|			1950 Failed, non RX state
+Castalia|			81027 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			1499 TX pkts
+Castalia|	module:SN.node[0].Communication.MAC
+Castalia|		simple output name:TunableMAC packet breakdown
+Castalia|			1499 Received from App
+Castalia|			81027 filtered, other dest
+Castalia|			1499 sent data pkts
+Castalia|	module:SN.node[0].Communication.Routing
+Castalia|		simple output name:GPSR Packets received
+Castalia|			1499 DATA from Application (unicast,greedy)
+Castalia|		simple output name:GPSR Packets sent
+Castalia|			1499 DATA (unicast,greedy)
+Castalia|			1 HELLO
+Castalia|	module:SN.node[1].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			20.3996 
+Castalia|		simple output name:Remaining Energy
+Castalia|			18699.6 
+Castalia|	module:SN.node[1].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			48383 Failed, below sensitivity
+Castalia|			36095 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			6 TX pkts
+Castalia|	module:SN.node[1].Communication.MAC
+Castalia|		simple output name:TunableMAC packet breakdown
+Castalia|			6 Received from App
+Castalia|			36089 filtered, other dest
+Castalia|			6 received data pkts
+Castalia|			6 sent data pkts
+Castalia|	module:SN.node[1].Communication.Routing
+Castalia|		simple output name:GPSR Packets forwarded
+Castalia|			6 greedy
+Castalia|		simple output name:GPSR Packets received
+Castalia|			6 DATA from MAC
+Castalia|		simple output name:GPSR Packets sent
+Castalia|			1 HELLO
+Castalia|	module:SN.node[2].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			20.3976 
+Castalia|		simple output name:Remaining Energy
+Castalia|			18699.6 
+Castalia|	module:SN.node[2].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			32245 Failed, below sensitivity
+Castalia|			52239 Received with NO interference
+Castalia|	module:SN.node[2].Communication.MAC
+Castalia|		simple output name:TunableMAC packet breakdown
+Castalia|			52239 filtered, other dest
+Castalia|	module:SN.node[2].Communication.Routing
+Castalia|		simple output name:GPSR Packets sent
+Castalia|			1 HELLO
+Castalia|	module:SN.node[3].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			20.3971 
+Castalia|		simple output name:Remaining Energy
+Castalia|			18699.6 
+Castalia|	module:SN.node[3].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			32245 Failed, below sensitivity
+Castalia|			52239 Received with NO interference
+Castalia|	module:SN.node[3].Communication.MAC
+Castalia|		simple output name:TunableMAC packet breakdown
+Castalia|			52237 filtered, other dest
+Castalia|			2 received data pkts
+Castalia|	module:SN.node[3].Communication.Routing
+Castalia|		simple output name:GPSR Packets received
+Castalia|			2 DATA from MAC
+Castalia|			2 final from MAC
+Castalia|		simple output name:GPSR Packets sent
+Castalia|			1 HELLO
+Castalia|	module:SN.node[3].Application
+Castalia|		 index:0 simple output name:Packets received per node
+Castalia|			2 
+Castalia|		histogram name:Application level latency, in ms
+Castalia|		histogram_min:0 histogram_max:200
+Castalia|		histogram_values 0 1 0 1 0 0 0 0 0 0 0
+Castalia|	module:SN.node[4].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			20.0824 
+Castalia|		simple output name:Remaining Energy
+Castalia|			18699.9 
+Castalia|	module:SN.node[4].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			18 Failed, below sensitivity
+Castalia|			7405 Failed, non RX state
+Castalia|			60939 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			16122 TX pkts
+Castalia|	module:SN.node[4].Communication.MAC
+Castalia|		simple output name:TunableMAC packet breakdown
+Castalia|			16122 Received from App
+Castalia|			44817 filtered, other dest
+Castalia|			16122 received data pkts
+Castalia|			16122 sent data pkts
+Castalia|	module:SN.node[4].Communication.Routing
+Castalia|		simple output name:GPSR Packets forwarded
+Castalia|			16122 greedy
+Castalia|		simple output name:GPSR Packets received
+Castalia|			16122 DATA from MAC
+Castalia|		simple output name:GPSR Packets sent
+Castalia|			1 HELLO
+Castalia|	module:SN.node[5].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			20.3996 
+Castalia|		simple output name:Remaining Energy
+Castalia|			18699.6 
+Castalia|	module:SN.node[5].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			32248 Failed, below sensitivity
+Castalia|			52236 Received with NO interference
+Castalia|	module:SN.node[5].Communication.MAC
+Castalia|		simple output name:TunableMAC packet breakdown
+Castalia|			52236 filtered, other dest
+Castalia|	module:SN.node[5].Communication.Routing
+Castalia|		simple output name:GPSR Packets sent
+Castalia|			1 HELLO
+Castalia|	module:SN.node[6].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			20.3982 
+Castalia|		simple output name:Remaining Energy
+Castalia|			18699.6 
+Castalia|	module:SN.node[6].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			35248 Failed, below sensitivity
+Castalia|			49233 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			3 TX pkts
+Castalia|	module:SN.node[6].Communication.MAC
+Castalia|		simple output name:TunableMAC packet breakdown
+Castalia|			3 Received from App
+Castalia|			49230 filtered, other dest
+Castalia|			3 received data pkts
+Castalia|			3 sent data pkts
+Castalia|	module:SN.node[6].Communication.Routing
+Castalia|		simple output name:GPSR Packets forwarded
+Castalia|			3 greedy
+Castalia|		simple output name:GPSR Packets received
+Castalia|			3 DATA from MAC
+Castalia|		simple output name:GPSR Packets sent
+Castalia|			1 HELLO
+Castalia|	module:SN.node[7].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			20.398 
+Castalia|		simple output name:Remaining Energy
+Castalia|			18699.6 
+Castalia|	module:SN.node[7].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			66630 Failed, below sensitivity
+Castalia|			17850 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			5 TX pkts
+Castalia|	module:SN.node[7].Communication.MAC
+Castalia|		simple output name:TunableMAC packet breakdown
+Castalia|			5 Received from App
+Castalia|			17845 filtered, other dest
+Castalia|			5 received data pkts
+Castalia|			5 sent data pkts
+Castalia|	module:SN.node[7].Communication.Routing
+Castalia|		simple output name:GPSR Packets forwarded
+Castalia|			5 greedy
+Castalia|		simple output name:GPSR Packets received
+Castalia|			5 DATA from MAC
+Castalia|		simple output name:GPSR Packets sent
+Castalia|			1 HELLO
+Castalia|	module:SN.node[8].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			20.3675 
+Castalia|		simple output name:Remaining Energy
+Castalia|			18699.6 
+Castalia|	module:SN.node[8].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			3 Failed, below sensitivity
+Castalia|			2229 Failed, non RX state
+Castalia|			80753 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			1499 TX pkts
+Castalia|	module:SN.node[8].Communication.MAC
+Castalia|		simple output name:TunableMAC packet breakdown
+Castalia|			1499 Received from App
+Castalia|			79254 filtered, other dest
+Castalia|			1499 received data pkts
+Castalia|			1499 sent data pkts
+Castalia|	module:SN.node[8].Communication.Routing
+Castalia|		simple output name:GPSR Packets forwarded
+Castalia|			1499 greedy
+Castalia|		simple output name:GPSR Packets received
+Castalia|			1499 DATA from MAC
+Castalia|		simple output name:GPSR Packets sent
+Castalia|			1 HELLO
+Castalia|	module:SN.node[9].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			20.3985 
+Castalia|		simple output name:Remaining Energy
+Castalia|			18699.6 
+Castalia|	module:SN.node[9].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			66627 Failed, below sensitivity
+Castalia|			17858 Received with NO interference
+Castalia|	module:SN.node[9].Communication.MAC
+Castalia|		simple output name:TunableMAC packet breakdown
+Castalia|			17858 filtered, other dest
+Castalia|	module:SN.node[9].Communication.Routing
+Castalia|		simple output name:GPSR Packets sent
+Castalia|			1 HELLO
+Castalia|	module:SN.node[10].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			20.0803 
+Castalia|		simple output name:Remaining Energy
+Castalia|			18699.9 
+Castalia|	module:SN.node[10].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			18 Failed, below sensitivity
+Castalia|			7062 Failed, non RX state
+Castalia|			61281 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			16123 TX pkts
+Castalia|	module:SN.node[10].Communication.MAC
+Castalia|		simple output name:TunableMAC packet breakdown
+Castalia|			16123 Received from App
+Castalia|			45158 filtered, other dest
+Castalia|			16123 received data pkts
+Castalia|			16123 sent data pkts
+Castalia|	module:SN.node[10].Communication.Routing
+Castalia|		simple output name:GPSR Packets forwarded
+Castalia|			16123 greedy
+Castalia|		simple output name:GPSR Packets received
+Castalia|			16123 DATA from MAC
+Castalia|		simple output name:GPSR Packets sent
+Castalia|			1 HELLO
+Castalia|	module:SN.node[11].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			20.3999 
+Castalia|		simple output name:Remaining Energy
+Castalia|			18699.6 
+Castalia|	module:SN.node[11].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			32245 Failed, below sensitivity
+Castalia|			52235 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			4 TX pkts
+Castalia|	module:SN.node[11].Communication.MAC
+Castalia|		simple output name:TunableMAC packet breakdown
+Castalia|			4 Received from App
+Castalia|			52231 filtered, other dest
+Castalia|			4 received data pkts
+Castalia|			4 sent data pkts
+Castalia|	module:SN.node[11].Communication.Routing
+Castalia|		simple output name:GPSR Packets forwarded
+Castalia|			4 greedy
+Castalia|		simple output name:GPSR Packets received
+Castalia|			4 DATA from MAC
+Castalia|		simple output name:GPSR Packets sent
+Castalia|			1 HELLO
+Castalia|	module:SN.node[12].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			20.0707 
+Castalia|		simple output name:Remaining Energy
+Castalia|			18699.9 
+Castalia|	module:SN.node[12].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			5 Failed, below sensitivity
+Castalia|			7674 Failed, non RX state
+Castalia|			60061 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			16745 TX pkts
+Castalia|	module:SN.node[12].Communication.MAC
+Castalia|		simple output name:TunableMAC packet breakdown
+Castalia|			16745 Received from App
+Castalia|			43316 filtered, other dest
+Castalia|			16745 received data pkts
+Castalia|			16745 sent data pkts
+Castalia|	module:SN.node[12].Communication.Routing
+Castalia|		simple output name:GPSR Packets forwarded
+Castalia|			16745 greedy
+Castalia|		simple output name:GPSR Packets received
+Castalia|			16745 DATA from MAC
+Castalia|		simple output name:GPSR Packets sent
+Castalia|			1 HELLO
+Castalia|	module:SN.node[13].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			20.0829 
+Castalia|		simple output name:Remaining Energy
+Castalia|			18699.9 
+Castalia|	module:SN.node[13].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			11 Failed, below sensitivity
+Castalia|			7314 Failed, non RX state
+Castalia|			61021 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			16138 TX pkts
+Castalia|	module:SN.node[13].Communication.MAC
+Castalia|		simple output name:TunableMAC packet breakdown
+Castalia|			16138 Received from App
+Castalia|			44883 filtered, other dest
+Castalia|			16138 received data pkts
+Castalia|			16138 sent data pkts
+Castalia|	module:SN.node[13].Communication.Routing
+Castalia|		simple output name:GPSR Packets forwarded
+Castalia|			16138 greedy
+Castalia|		simple output name:GPSR Packets received
+Castalia|			16138 DATA from MAC
+Castalia|		simple output name:GPSR Packets sent
+Castalia|			1 HELLO
+Castalia|	module:SN.node[14].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			20.0784 
+Castalia|		simple output name:Remaining Energy
+Castalia|			18699.9 
+Castalia|	module:SN.node[14].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			7385 Failed, non RX state
+Castalia|			60758 Received with NO interference
+Castalia|		simple output name:TXed pkts
+Castalia|			16341 TX pkts
+Castalia|	module:SN.node[14].Communication.MAC
+Castalia|		simple output name:TunableMAC packet breakdown
+Castalia|			16342 Received from App
+Castalia|			44416 filtered, other dest
+Castalia|			16342 received data pkts
+Castalia|			16341 sent data pkts
+Castalia|	module:SN.node[14].Communication.Routing
+Castalia|		simple output name:GPSR Packets forwarded
+Castalia|			16342 greedy
+Castalia|		simple output name:GPSR Packets received
+Castalia|			16342 DATA from MAC
+Castalia|		simple output name:GPSR Packets sent
+Castalia|			1 HELLO
+Castalia|	module:SN.node[15].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			20.3992 
+Castalia|		simple output name:Remaining Energy
+Castalia|			18699.6 
+Castalia|	module:SN.node[15].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			16140 Failed, below sensitivity
+Castalia|			68344 Received with NO interference
+Castalia|	module:SN.node[15].Communication.MAC
+Castalia|		simple output name:TunableMAC packet breakdown
+Castalia|			68344 filtered, other dest
+Castalia|	module:SN.node[15].Communication.Routing
+Castalia|		simple output name:GPSR Packets sent
+Castalia|			1 HELLO
