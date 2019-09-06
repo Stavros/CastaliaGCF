@@ -10,7 +10,7 @@ Based on the implementation of GPSR which really helped me to understand more de
 
 The algorithm is pre-calculating the Shortest Path in a sink node using Dijkstra that I 've implemented in Castalia. I 've created the getNextHopGCF() function as a basis to compute the shortest path while I also take into account all nodes' power levels apart from geo.x.y distances as it is considered a critical factor of performance in designing routing algorithms on WSN.
 
-*Castalia is a Wireless Sensor Network Simulator <https://castalia.forge.nicta.com.au/index.php/en/>
+*Castalia is a Wireless Sensor Network Simulator <https://github.com/boulis/Castalia>
 
 ## Licence
 
